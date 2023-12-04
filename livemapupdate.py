@@ -60,7 +60,6 @@ date_input.clear()
 date_input.send_keys("2023-10-15")
 
 # Wait for up to 1 second for the button to appear
-wait = WebDriverWait(driver, 1)
 time.sleep(1)
 close = driver.find_element(By.XPATH, "//div[@class='history__datetime']")
 close.click()
