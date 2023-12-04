@@ -72,7 +72,7 @@ close.click()
 #         By.XPATH, "//img[@src='/images/arrow-prev.png']")
 #     history_button.click()
 
-# Start speeding up map transitioning to 5x
+# Start speeding up map transitioning to 3x
 speed_up = driver.find_element(
     By.XPATH, "//button[@class='history-nav speed']")
 speed_up.click()
